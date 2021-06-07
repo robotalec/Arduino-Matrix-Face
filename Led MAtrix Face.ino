@@ -92,7 +92,7 @@ void loop()
 {
 
   if (testcounter == 10000){
-      FastLED.setBrightness(8);
+      FastLED.setBrightness(brightness);
   FastLED.clear(true);
   delay(500);
   FastLED.showColor(CRGB::Red);
